@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+
+/*SNSボタン*/
+.btn-social-isometric {
+  color: #484848;
+  display: inline-flex;
+  height: 50px;
+  font-size: 25px;
+  line-height: 46px;
+  background: #eaeef1;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 1em;
+  vertical-align: middle;
+}
+.btn-social-isometric-icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: white;
+}
+.btn-social-isometric-icon i {
+  line-height: 46px;
+  font-size: 25px;
+}
+.btn-social-isometric-text {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  border-bottom: solid 4px #dcdcdc;
+  vertical-align: middle;
+      color: gray;
+}
+.btn-social-isometric-icon--twitter {
+  background:#1da1f3;
+  border-bottom: solid 4px #1484ca;
+}
+.btn-social-isometric-icon--facebook {
+  background:#3b75d4;
+  border-bottom: solid 4px #2a5caf;
+}
+.btn-social-isometric-icon--feedly {
+  background:#7ece46;
+  border-bottom: solid 4px #65b130;
+}
+.btn-social-isometric-icon--pocket {
+  background:#fd7171;
+  border-bottom: solid 4px #ef4d4d;
+}
+.btn-social-isometric:hover {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+}
+.btn-social-isometric:hover .btn-social-isometric-text, .btn-social-isometric:hover .btn-social-isometric-icon {
+  border-bottom: none;
+}
